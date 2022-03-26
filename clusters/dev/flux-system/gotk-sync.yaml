@@ -20,7 +20,11 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
+<<<<<<< HEAD
   path: ./clusters/my-cluster
+=======
+  path: ./clusters/dev
+>>>>>>> 38598bbbde86adf9bdff2d180c43e76732d6fe63
   prune: true
   sourceRef:
     kind: GitRepository
